@@ -1,6 +1,363 @@
-.container{
-    margin-top:200px;
-    margin-left: auto;
-    margin-right: atuo;
-    width: 960px;
+div{
+    outline: px solid black;
 }
+
+h1{
+    font-size: 40px;
+}
+
+p{
+  text-align: left;
+  font-family: 'Open Sans', 'Helvetica', sans-serif;
+
+}
+body{
+    background-color: #f2f2f2;
+    margin: 0; 
+    font-family: 'Lato', sans-serif;
+
+}
+
+.header{
+    background-color: white;
+    color: white; 
+    height: 50px; 
+}
+
+.logo{
+    margin-top: 35px;
+    font-size: 1.4rem;
+    float: left;
+    margin-left: 50px;
+}
+
+body{
+  background: white;
+  padding:75px;
+  text-align:center;
+  font-family: 'Oswald', sans-serif;
+}
+
+
+.btn{
+  color:#999;
+  background:rgba(0, 0, 0, 0.5);
+  padding:10px 20px;
+  font-size:12px;
+  text-decoration:none;
+  letter-spacing:2px;
+  text-transform:uppercase;
+}
+
+.btn:hover{
+  border:none;
+  background:rgba(0, 0, 0, 0.4);
+  background:#fff;
+  padding:20px 20px; #000;
+  color:#1b1b1b;
+}
+
+.nav{
+    max-width: 950px;
+    width: 450px;
+    height: 50px;
+    margin-top: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    float: right;
+    
+}
+    
+.header{
+    background-color: #ba9685;
+    color: white; 
+    height: 90px; 
+    width: 1300px;
+}
+
+.logo{
+    margin-top: 5px;
+    float: left;
+}
+li{
+    text-align: left;
+}
+
+/* index page starts */ 
+.slideshow{
+    background-color: #f2e3dc;
+    margin-top: 30px;
+    height: 400px; 
+    width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.infobox{
+    background-color: #ba9685;
+    margin-top: 30px;
+    height: 500px; 
+    width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.infoboxtext{
+    background-color: #f2e3dc;
+    margin-top: 50px;
+    margin-left: 60px;
+    height: 420px; 
+    width: 700px;
+    float: left;
+}
+
+.infoboxheading{
+    margin-top: 10px;
+    margin-left: 60px;
+    height: 100px; 
+    width: 550px;
+    float: left;
+}
+
+.infoboxtext2{
+    margin-top: 10px;
+    margin-left: 60px;
+    height: 250px; 
+    width: 550px;
+    padding-right: 20px;
+    padding-left: 20px;
+    float: left;
+}
+
+.groupimage{
+    margin-top: 30px;
+    height: 420px; 
+    width: 420px;
+    float:right;
+    margin-right: 50px;
+    margin-top: 50px;
+    
+}
+/* index page end */ 
+
+/* Gallery page starts */ 
+.gallery { 
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    -webkit-column-gap: 10px;
+    -moz-column-gap: 10px;
+    column-gap: 10px;
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+.gallery img { 
+    width: 100%; 
+    height: auto;
+    transition: 500ms;
+    margin-bottom: 10px;
+    opacity: 0.7;
+    page-break-inside: avoid; /* For Firefox. */
+    -webkit-column-break-inside: avoid; /* For Chrome & friends. */
+    break-inside: avoid; /* For standard browsers like IE. :-) */
+}
+
+.gallery img:hover {
+    opacity: 1;
+}
+
+.modal-img,.model-vid{
+  width:100%;
+  height: auto;
+}
+.modal-body{
+  padding:0px;
+}
+
+.modal-dialog {
+    text-align: center;
+    vertical-align: middle;
+    display: block;
+    top: 10%;
+}
+
+.modal-content {
+  border: none;
+}
+
+@media screen and (max-width: 767px) {
+	.gallery { 
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-count: 2;
+    }
+	.gallery div { margin: 0; 
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .gallery { 
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        column-count: 1;
+    }
+    .gallery div { 
+        margin: 0; 
+        width: 200px;
+    }
+}
+/* Gallery page ends*/ 
+
+/* About page starts */ 
+.abouttextbox{
+    background-color: #ba9685;
+    margin-top: 30px;
+    height: 500px; 
+    width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.aboutboxtext2{
+    background-color: #f2e3dc;
+    margin-top: 40px;
+    margin-left: 60px;
+    height: 420px; 
+    width: 1180px;
+    float: left;
+}
+ 
+.abouttextbox3{
+    margin-top: 40px;
+    margin-left: 60px;
+    height: 320px; 
+    width: 1050px;
+    float: left;
+}
+
+.photobox3{
+    margin-top: 40px;
+    height: 400px; 
+    width: 1300px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.aboutphoto1{
+    margin-top: 10px;
+    height: 370px; 
+    width: 370px;
+    float: left;
+    margin-left: 50px;   
+}
+
+.aboutphoto2{
+    margin-top: 10px;
+    height: 370px; 
+    width: 370px;
+    float: left;
+    margin-right: 30px;
+    margin-left: 50px; 
+}
+
+.aboutphoto3{
+    margin-top: 10px;
+    height: 370px; 
+    width: 370px;
+    float: left;
+    margin-right: 30px;
+    margin-left: 30px;     
+}
+/* About page ends */ 
+
+/* contact page ends */ 
+.fillinbox{
+    background-color: #ba9685;
+    margin-top: 30px;
+    height: 650px; 
+    width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fillinbox2{
+    background-color: #f2e3dc;
+    margin-top: 40px;
+    margin-left: 60px;
+    height: 550px; 
+    width: 1180px;
+    float: left;
+}
+
+
+.socialmedia{
+    background-color: #ba9685;
+    margin-top: 30px;
+    height: 400px; 
+    width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.socialmedia2{
+    background-color: #f2e3dc;
+    margin-top: 40px;
+    margin-left: 60px;
+    height: 320px; 
+    width: 1180px;
+    float: left;
+}
+
+.socialtext{
+    margin-top: 40px;
+    margin-left: 60px;
+    height: 50px; 
+    width: 1000px;
+    float: left;
+}
+
+.socialicon{
+    height: 50px; 
+    width: 50px;
+    float: left;
+}
+
+.socialtextbox{
+    height: 50px; 
+    width: 900px;
+    float: left;
+    margin-left: 15px
+}
+
+.container{
+    width:920px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.contacttextbox{
+    margin-top: 10px;
+    height: 50px; 
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.inputForm{
+    width: 500px;
+}
+
+.mybtn{
+    color:red;
+    background-color: white;
+}
+
+.row{
+    margin-top: 5px;
+}
+/* contact page ends */ 
